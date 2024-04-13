@@ -10,5 +10,5 @@
  * Description <TYPE>
  *
  * Example:
- * [] call TAG_component_fnc_empty
+ * [] call AOR_main_fnc_empty
  */

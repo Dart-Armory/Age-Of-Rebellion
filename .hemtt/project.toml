@@ -1,6 +1,6 @@
-name = "MOD NAME"
+name = "Age of Rebellion"
 author = "DartRuffian"
-prefix = "TAG"
+prefix = "AOR"
 mainprefix = "DA"
 
 [version]
@@ -8,18 +8,12 @@ path = "addons/main/script_version.hpp"
 git_hash = 0
 
 [files]
-include = [
-    "mod.cpp",
-    # "logo_TAG_ca.paa",
-    # "logo_TAG_over_ca.paa",
-    "LICENSE",
-    "README.md",
-]
+include = ["mod.cpp", "logo_AOR_ca.paa", "LICENSE", "README.md"]
 exclude = ["*.spp", "*.spp.painter_lock", "*.psd", "fnc_empty.sqf"]
 
 [properties]
 author = "DartRuffian"
-url = "https://github.com/Dart-Armory/MOD NAME"
+url = "https://github.com/Dart-Armory/Age-of-Rebellion"
 
 [hemtt.launch.default]
 workshop = [

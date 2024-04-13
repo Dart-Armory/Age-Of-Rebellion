@@ -1,6 +1,6 @@
 #define MAINPREFIX DA
-#define PREFIX TAG
-#define MOD_NAME FULL NAME
+#define PREFIX AOR
+#define MOD_NAME Age of Rebellion
 
 #include "script_version.hpp"
 

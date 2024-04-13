@@ -1,4 +1,4 @@
-#include "\DA\TAG\addons\main\data\hpp\defineDIKCodes.inc"
+#include "\DA\AOR\addons\main\data\hpp\defineDIKCodes.inc"
 
 [
     [QUOTE(MOD_NAME), QUOTE(COMPONENT_BEAUTIFIED)],
