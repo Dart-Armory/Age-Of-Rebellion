@@ -1,0 +1,12 @@
+name = "MOD NAME";
+// picture = "logo_TAG_ca.paa";
+actionName = "GitHub";
+action = "https://github.com/Dart-Armory/MOD NAME";
+description = "TAG - Version 0.0.0";
+// logo = "logo_TAG_ca.paa";
+// logoOver = "logo_TAG_over_ca.paa";
+tooltip = "TAG";
+tooltipOwned = "TAG Owned";
+overview = "Description";
+author = "DartRuffian";
+// overviewPicture = "logo_TAG_ca.paa";

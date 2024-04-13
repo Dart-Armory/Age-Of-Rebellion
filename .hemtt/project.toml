@@ -1,0 +1,45 @@
+name = "MOD NAME"
+author = "DartRuffian"
+prefix = "TAG"
+mainprefix = "DA"
+
+[version]
+path = "addons/main/script_version.hpp"
+git_hash = 0
+
+[files]
+include = [
+    "mod.cpp",
+    # "logo_TAG_ca.paa",
+    # "logo_TAG_over_ca.paa",
+    "LICENSE",
+    "README.md",
+]
+exclude = ["*.spp", "*.spp.painter_lock", "*.psd", "fnc_empty.sqf"]
+
+[properties]
+author = "DartRuffian"
+url = "https://github.com/Dart-Armory/MOD NAME"
+
+[hemtt.launch.default]
+workshop = [
+    "450814997",  # CBA
+    "2369477168", # ADT
+]
+presets = []
+dlc = []
+optionals = []
+parameters = []
+
+[hemtt.launch.previews]
+workshop = [
+    "450814997",  # CBA
+    "2369477168", # ADT
+]
+presets = []
+dlc = []
+optionals = []
+parameters = [
+    "C:\\Users\\skull\\OneDrive\\Documents\\Arma 3 - Other Profiles\\Previews\\missions\\Previews.VR\\mission.sqm",
+    "-name=Previews",
+]
