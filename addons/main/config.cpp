@@ -10,9 +10,13 @@ class CfgPatches {
             "cba_main"
         };
         units[] = {};
-        weapons[] = {};
+        weapons[] = {
+            "AOR_Item_base",
+            "AOR_ItemInfo_base"
+        };
         VERSION_CONFIG;
     };
 };
 
+#include "CfgWeapons.hpp"
 #include "CfgEventHandlers.hpp"
