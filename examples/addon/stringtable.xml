@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project name="AOR">
   <Package name="Component Name">
-    <Key ID="STR_AOR_Component_DisplayName">
+    <Key ID="STR_AOR_Component_componentName">
       <English>Component Name</English>
     </Key>
   </Package>
