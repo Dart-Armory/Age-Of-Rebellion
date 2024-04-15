@@ -1,6 +1,7 @@
 #include "..\script_component.hpp"
 /*
  * Author: DartRuffian
+ * Creates a credit card item and gives it the specified unit.
  * Server execution only.
  *
  * Arguments:
