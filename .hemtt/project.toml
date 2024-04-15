@@ -8,7 +8,7 @@ path = "addons/main/script_version.hpp"
 git_hash = 0
 
 [files]
-include = ["mod.cpp", "logo_AOR_ca.paa", "LICENSE", "README.md"]
+include = ["mod.cpp", "logo_AOR.png", "logo_AOR_ca.paa", "LICENSE", "README.md"]
 exclude = ["*.spp", "*.spp.painter_lock", "*.psd", "fnc_empty.sqf"]
 
 [properties]
@@ -19,6 +19,7 @@ url = "https://github.com/Dart-Armory/Age-of-Rebellion"
 workshop = [
     "450814997",  # CBA
     "2369477168", # ADT
+    "1940589429", # Just Like The Simulations - The Great War
 ]
 presets = []
 dlc = []
@@ -29,6 +30,7 @@ parameters = []
 workshop = [
     "450814997",  # CBA
     "2369477168", # ADT
+    "1940589429", # Just Like The Simulations - The Great War
 ]
 presets = []
 dlc = []

@@ -2,17 +2,16 @@
 
 class CfgPatches {
     class ADDON {
-        author = "DartRuffian";
+        author = AUTHOR;
         name = COMPONENT_NAME;
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "A3_Data_F_Decade_Loadorder",
-            "cba_main"
+            "AOR_main",
+            "JLTS_C_Credits"
         };
         units[] = {};
         weapons[] = {
-            "AOR_Item_base",
-            "AOR_ItemInfo_base"
+            "AOR_item_CreditCard"
         };
         VERSION_CONFIG;
     };

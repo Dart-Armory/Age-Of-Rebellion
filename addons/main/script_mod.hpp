@@ -1,6 +1,7 @@
 #define MAINPREFIX DA
 #define PREFIX AOR
 #define MOD_NAME Age of Rebellion
+#define AUTHOR "DartRuffian"
 
 #include "script_version.hpp"
 
