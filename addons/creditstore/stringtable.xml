@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="AOR">
+  <Package name="Credit Store">
+    <Key ID="STR_AOR_creditStore_componentName">
+      <English>Credit Store</English>
+    </Key>
+  </Package>
+</Project>
