@@ -1,4 +1,5 @@
-#define CREDITCARD_ITEM(ID) class DOUBLES(AOR_item_CreditCard,ID) { \
+#define CREDITCARD_ITEM(ID) class DOUBLES(AOR_item_CreditCard,ID): AOR_item_CreditCard { \
+    displayName = CSTRING(item_CreditCardOwned_name); \
     scope = 1; \
     scopeArsenal = 0; \
     scopeCurator = 0; \
@@ -17,7 +18,9 @@ class CfgWeapons {
 
     // Reset counter in case it's been used.
     // 1000 credit card items should be good, easy to expand by just adding more lines.
+    // ! Make sure to update defines.hpp to update the max id for credit cards
     __COUNTER_RESET__
+    CREDITCARD_ITEM(__COUNTER__);
     CREDITCARD_ITEM(__COUNTER__);
     CREDITCARD_ITEM(__COUNTER__);
     CREDITCARD_ITEM(__COUNTER__);

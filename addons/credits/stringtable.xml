@@ -13,5 +13,8 @@
     <Key ID="STR_AOR_Credits_item_CreditCard_name">
       <English>Credit Card</English>
     </Key>
+    <Key ID="STR_AOR_Credits_item_CreditCardOwned_name">
+      <English>Credit Card (Owned)</English>
+    </Key>
   </Package>
 </Project>
