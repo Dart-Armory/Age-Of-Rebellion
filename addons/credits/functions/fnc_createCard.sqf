@@ -18,7 +18,6 @@
  */
 
 params ["_unit", ["_id", -1]];
-private [];
 
 if !(isServer and {("AOR_item_CreditCard" in items _unit)}) exitWith {};
 
