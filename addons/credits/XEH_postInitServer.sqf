@@ -1,7 +1,7 @@
 #include "script_component.hpp"
 
 GVAR(creditCards) = profileNamespace getVariable [format [QGVAR(creditCards_%1), worldName], createHashmap];
-GVAR(lastCreditCardId) = profileNamespace getVariable [format [QGVAR(lastCreditCardId_%1), worldName], 0];
+GVAR(lastCreditCardId) = profileNamespace getVariable [format [QGVAR(lastCreditCardId_%1), worldName], 1];
 
 [QGVAR(createCard), {
     params ["_unit", "_id"];

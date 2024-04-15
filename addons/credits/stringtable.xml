@@ -16,5 +16,11 @@
     <Key ID="STR_AOR_Credits_item_CreditCardOwned_name">
       <English>Credit Card (Owned)</English>
     </Key>
+    <Key ID="STR_AOR_Credits_CreditCardOwned_inspect">
+      <English>Inspect</English>
+    </Key>
+    <Key ID="STR_AOR_Credits_CreditCardOwned_inspectTooltip">
+      <English>Owner: %1\nBalance: %2\nCard Id: %3</English>
+    </Key>
   </Package>
 </Project>
