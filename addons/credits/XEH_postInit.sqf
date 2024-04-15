@@ -11,7 +11,9 @@ if (isServer) then {
         TRACE_2("createCard EH",_unit,_id);
         _unit call FUNC(createCard);
     }] call CBA_fnc_addEventHandler;
-} else {
+};
+
+if (hasInterface) then {
     ["loadout", {
         params ["_unit", "_newUnitLoadout", "_oldUnitLoadout"];
         if ("AOR_item_CreditCard" in items _unit) then {
