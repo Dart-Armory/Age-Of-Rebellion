@@ -16,3 +16,4 @@ class CfgPatches {
 
 #include "CfgEventHandlers.hpp"
 #include "dialogs.hpp"
+#include "AOR_creditStore_listings.hpp"
