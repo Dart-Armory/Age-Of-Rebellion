@@ -13,7 +13,7 @@
  * None
  *
  * Example:
- * [] call AOR_database_fnc_write
+ * [["meta", "lastLaunched", systemTime] call call AOR_database_fnc_write
  *
  * Public: Yes
  */
