@@ -1,7 +1,7 @@
 #include "..\script_component.hpp"
 /*
  * Author: DartRuffian
- * Saves data from the mission namespace to the server's profile.
+ * Saves data from the mission namespace to the database.
  * Server execution only.
  *
  * Arguments:

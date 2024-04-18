@@ -1,6 +1,6 @@
 #include "script_component.hpp"
 
-// Array of variables to save to the server profile's namespace
+// Array of variables to save to the database
 GVAR(savedVariables) = [];
 
 GVAR(saveData) = ["new", format [QGVARMAIN(saveData_%1), worldName]] call OO_INIDBI;
