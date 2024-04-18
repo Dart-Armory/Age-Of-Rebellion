@@ -6,16 +6,12 @@ class CfgPatches {
         name = COMPONENT_NAME;
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "AOR_database",
-            "JLTS_C_Credits"
+            "AOR_main"
         };
         units[] = {};
-        weapons[] = {
-            "AOR_item_CreditCard"
-        };
+        weapons[] = {};
         VERSION_CONFIG;
     };
 };
 
-#include "CfgWeapons.hpp"
 #include "CfgEventHandlers.hpp"

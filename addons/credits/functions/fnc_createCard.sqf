@@ -25,9 +25,9 @@ if !(isServer and {("AOR_item_CreditCard" in items _unit)}) exitWith {};
 TRACE_2("fnc_createCard",_unit,_id);
 
 if (_id < 0) then {
-    TRACE_1("fnc_createCard | negative id, using latest id",GVAR(lastCreditCardId));
-    _id = GVAR(lastCreditCardId);
-    GVAR(lastCreditCardId) = GVAR(lastCreditCardId) + 1;
+    TRACE_1("fnc_createCard | negative id, using latest id",GVAR(nextCreditCardId));
+    _id = GVAR(nextCreditCardId);
+    GVAR(nextCreditCardId) = GVAR(nextCreditCardId) + 1;
 };
 
 if (_id > CREDITCARD_MAXID) exitWith {
