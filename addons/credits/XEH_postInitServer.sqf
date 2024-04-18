@@ -2,7 +2,7 @@
 
 ([QUOTE(COMPONENT), "creditCards", [[], []]] call EFUNC(database,read)) params ["_keys", "_values"];
 GVAR(creditCards) = _keys createHashmapFromArray _values;
-GVAR(nextCreditCardId) = [QUOTE(COMPONENT), "nextCreditCardId"] call EFUNC(database,read);
+GVAR(nextCreditCardId) = [QUOTE(COMPONENT), "nextCreditCardId", 1] call EFUNC(database,read);
 
 EGVAR(database,savedVariables) append [QGVAR(creditCards), QGVAR(nextCreditCardId)];
 
