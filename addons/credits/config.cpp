@@ -6,7 +6,7 @@ class CfgPatches {
         name = COMPONENT_NAME;
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
-            "AOR_main",
+            "AOR_database",
             "JLTS_C_Credits"
         };
         units[] = {};

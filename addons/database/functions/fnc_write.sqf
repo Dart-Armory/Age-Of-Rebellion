@@ -2,6 +2,7 @@
 /*
  * Author: DartRuffian
  * Writes a value to the INIDB2 database.
+ * Server execution only.
  *
  * Arguments:
  * 0: The section of the value <STRING>

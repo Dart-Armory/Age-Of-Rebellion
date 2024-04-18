@@ -11,7 +11,7 @@
  * Description <TYPE>
  *
  * Example:
- * [] call AOR_main_fnc_saveServerData;
+ * [] call AOR_database_fnc_saveServerData;
  *
  * Public: No
  */
@@ -23,7 +23,12 @@ if (!isServer) exitWith {
 INFO("Saving mission data");
 
 {
-    private _data = missionNamespace getVariable _x;
-    profileNamespace setVariable [format [_x + "_" + worldName], _data];
-    INFO_2("Saved variable %1 with data %2",_x,_data);
+    private _value = missionNamespace getVariable _x;
+    (_x splitString "_") params ["", "_section", "_key"];
+
+    if (_value isEqualType createHashmap) then {
+        _value = toArray _value;
+    };
+    [_section, _key, _value] call FUNC(write);
+    INFO_2("Saved variable %1 with _value %2",_x,_value);
 } forEach GVAR(savedVariables);

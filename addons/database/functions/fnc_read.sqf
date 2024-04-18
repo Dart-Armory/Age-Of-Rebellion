@@ -2,6 +2,7 @@
 /*
  * Author: DartRuffian
  * Reads a value from the INIDB2 database.
+ * Server execution only.
  *
  * Arguments:
  * 0: The section of the value <STRING>

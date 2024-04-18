@@ -3,7 +3,7 @@
 GVAR(creditCards) = profileNamespace getVariable [format [QGVAR(creditCards_%1), worldName], createHashmap];
 GVAR(lastCreditCardId) = profileNamespace getVariable [format [QGVAR(lastCreditCardId_%1), worldName], 1];
 
-EGVAR(main,savedVariables) append [QGVAR(creditCards), QGVAR(lastCreditCardId)];
+EGVAR(database,savedVariables) append [QGVAR(creditCards), QGVAR(lastCreditCardId)];
 
 [QGVAR(createCard), {
     params ["_unit", "_id"];
