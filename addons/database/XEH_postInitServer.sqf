@@ -4,7 +4,7 @@
 GVAR(savedVariables) = [];
 
 GVAR(saveData) = ["new", format [QGVARMAIN(saveData_%1), worldName]] call OO_INIDBI;
-["Meta", "lastLaunched", systemTime] call FUNC(write);
+["meta", "lastLaunched", systemTime] call FUNC(write);
 
 [QGVAR(save), {
     [] call FUNC(saveServerData);
