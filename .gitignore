@@ -5,6 +5,7 @@ releases/
 
 # Development
 references/
+.hemtt/missions/~*
 
 # Textures
 Exports/

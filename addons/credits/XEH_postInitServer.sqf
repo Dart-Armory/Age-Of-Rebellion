@@ -1,9 +1,10 @@
 #include "script_component.hpp"
 
-GVAR(creditCards) = profileNamespace getVariable [format [QGVAR(creditCards_%1), worldName], createHashmap];
-GVAR(lastCreditCardId) = profileNamespace getVariable [format [QGVAR(lastCreditCardId_%1), worldName], 1];
+([QUOTE(COMPONENT), "creditCards", [[], []]] call EFUNC(database,read)) params ["_keys", "_values"];
+GVAR(creditCards) = _keys createHashmapFromArray _values;
+GVAR(nextCreditCardId) = [QUOTE(COMPONENT), "nextCreditCardId", 1] call EFUNC(database,read);
 
-EGVAR(main,savedVariables) append [QGVAR(creditCards), QGVAR(lastCreditCardId)];
+EGVAR(database,savedVariables) append [QGVAR(creditCards), QGVAR(nextCreditCardId)];
 
 [QGVAR(createCard), {
     params ["_unit", "_id"];
