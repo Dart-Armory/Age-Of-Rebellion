@@ -10,10 +10,14 @@ if !("exists" call GVAR(saveData)) then {
     WARNING("CRITICAL: Unable to create/load saveData from INIDBI2");
 };
 
-[QGVAR(save), {
-    [] call FUNC(saveServerData);
-}] call CBA_fnc_addEventHandler;
+["CBA_settingsInitialized", {
+    [QGVAR(save), {
+        [] call FUNC(saveServerData);
+    }] call CBA_fnc_addEventHandler;
 
-addMissionEventHandler ["Ended", {
-    [] call FUNC(saveServerData);
-}];
+    addMissionEventHandler ["Ended", {
+        [] call FUNC(saveServerData);
+    }];
+
+    [] call FUNC(autosave);
+}] call CBA_fnc_addEventHandler;
