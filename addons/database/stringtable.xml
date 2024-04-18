@@ -4,5 +4,11 @@
     <Key ID="STR_AOR_Database_componentName">
       <English>Database Controller</English>
     </Key>
+    <Key ID="STR_AOR_Database_autosaveTimerSetting">
+      <English>Automatic Save Timer</English>
+    </Key>
+    <Key ID="STR_AOR_Database_autosaveTimerTooltip">
+      <English>How often data such as credit card balances is automatically saved.\nThis setting will apply *after* the next automatic save.</English>
+    </Key>
   </Package>
 </Project>
